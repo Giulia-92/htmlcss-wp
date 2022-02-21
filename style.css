@@ -30,9 +30,8 @@ main{
     height:400px;
     margin: 0 auto;
     border-radius: 10px; 
-    border:3px solid grey;
     background-image:url(./img/banner.jpg);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner.jpg);
     object-fit:contain;
     background-position:center;
 }
@@ -46,10 +45,7 @@ main{
     height:20px;
     border-radius:20px;
     font-family:'Heebo', sans-serif;
-    
-
 }
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -95,16 +91,15 @@ main{
     border:1px solid grey;
     border-radius:10%;
     margin-bottom:6%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/img-1.jpg);
 }
-
 .img1{
     width:90%;
     height:50%;
     border:1px solid grey;
     border-radius:10%;
     margin-bottom:6%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/banner2.jpg);
 }
 .img2{
     width:98%;
@@ -112,12 +107,12 @@ main{
     border:1px solid grey;
     border-radius:10%;
     margin-bottom:6%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/img-3.jpg);
 }
 footer{
     width: 50%;
     margin: 0 auto;
-    margin:30px auto;
+    margin:70px auto;
     height: 40px;
     background-color:white;
     text-align: center;
