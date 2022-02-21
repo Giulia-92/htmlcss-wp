@@ -33,9 +33,9 @@ main{
     height:400px;
     margin: 0 auto;
     border-radius: 10px; 
-    border:1px solid grey;
+    border:0.8px solid grey;
     background-position:center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/banner.jpg);
 }
 .info
 {   margin-left: 5%;
@@ -47,11 +47,9 @@ main{
     height:20px;
     border-radius:20px;
     font-family:'Heebo', sans-serif;
-    
-
 }
-
-.clearfix::after {
+.clearfix::after 
+{
     content: "";
     clear: both;
     display: block;
@@ -91,35 +89,36 @@ main{
     font-family:'Heebo', sans-serif;
 }
 .img{
-    width:90%;
+    width:95%;
     height:50%;
-    border:1px solid grey;
     border-radius:10%;
     margin-bottom:6%;
-    
-    
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/img-1.jpg); 
 }
-
 .img1{
-    width:90%;
+    width:97%;
     height:50%;
-    border:1px solid grey;
-    border-radius:10%;
+    border-radius:15px;
     margin-bottom:6%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-position:center;
+    background-size:cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/banner-2.jpg);
 }
 .img2{
-    width:98%;
-    height:40%;
-    border:1px solid grey;
+    width:100%;
+    height:50%;
     border-radius:10%;
     margin-bottom:6%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-position:center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./img/img-3.jpg);
+   
 }
 footer{
     width: 50%;
     margin: 0 auto;
-    margin:70px auto;
+    margin:150px auto;
     height: 40px;
     background-color:white;
     text-align: center;
@@ -129,4 +128,12 @@ footer{
 .hearts{
     color: crimson;
     font-size:medium;
+}
+h2{
+    color: black;
+    font-size: medium;
+}
+p{
+    color: grey;
+    font-size: small;
 }
