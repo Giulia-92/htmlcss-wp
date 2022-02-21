@@ -25,6 +25,9 @@ nav li a{
     color: grey;
     margin-bottom: 20px;
 }
+nav li a:hover{
+    color:rgb(233, 5, 5);
+}
 main{
     width: 50%;
     height:400px;
